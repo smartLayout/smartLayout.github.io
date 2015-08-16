@@ -1,0 +1,189 @@
+body {
+	margin: 0;
+	background: #ddd;
+	font-family: 'Open Sans';
+	text-align: center;
+	color: #222;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 80px 0;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.slides {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.slides li {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.slides .content {
+	width: 200px;
+	height: 200px;
+	x: 0;
+	y: 0;
+	fill: #fff;
+}
+
+.slides li:hover .content {
+	fill: #f8f8f8;
+}
+
+svg {
+	height: 200px;
+	width: 200px;
+}
+
+
+/* Many centered blocks */
+
+.many-centered-blocks .block {
+	width: 40px;
+	height: 40px;
+	fill: #3d89c7;
+}
+
+.many-centered-blocks .content {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.many-centered-blocks rect {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.many-centered-blocks:hover .content {
+	width: 150px;
+	x: 25px;
+}
+
+/* normal position */
+
+.many-centered-blocks rect:nth-child(2) {
+	x: 30px;
+	y: 30px;
+}
+
+.many-centered-blocks rect:nth-child(3) {
+	x: 80px;
+	y: 30px;
+}
+
+.many-centered-blocks rect:nth-child(4) {
+	x: 130px;
+	y: 30px;
+}
+
+.many-centered-blocks rect:nth-child(5) {
+	x: 30px;
+	y: 80px;
+}
+
+.many-centered-blocks rect:nth-child(6) {
+	x: 80px;
+	y: 80px;
+}
+
+.many-centered-blocks rect:nth-child(7) {
+	x: 130px;
+	y: 80px;
+}
+
+.many-centered-blocks rect:nth-child(8) {
+	x: 55px;
+	y: 130px;
+}
+
+.many-centered-blocks rect:nth-child(9) {
+	x: 105px;
+	y: 130px;
+}
+
+
+
+
+
+.many-centered-blocks:hover rect:nth-child(2) {
+	x: 55px;
+}
+
+.many-centered-blocks:hover rect:nth-child(3) {
+	x: 105px;
+}
+
+
+.many-centered-blocks:hover rect:nth-child(4) {
+	x: 55px;
+	y: 80px;
+}
+
+.many-centered-blocks:hover rect:nth-child(5) {
+	x: 105px;
+	y: 80px;
+}
+
+
+.many-centered-blocks:hover rect:nth-child(6) {
+	x: 55px;
+	y: 130px;
+}
+
+.many-centered-blocks:hover rect:nth-child(7) {
+	x: 105px;
+	y: 130px;
+}
+
+
+.many-centered-blocks:hover rect:nth-child(8) {
+	x: 55px;
+	y: 180px;
+}
+
+.many-centered-blocks:hover rect:nth-child(9) {
+	x: 105px;
+	y: 180px;
+}
+
+
+/* Block in the center */
+
+.center-block .block {
+	x: 80px;
+	y: 80px;
+	width: 40px;
+	height: 40px;
+	fill: #3d89c7;
+}
+
+.center-block .content {
+	width: 200px;
+	x: 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.center-block:hover .content {
+	height: 150px;
+	y: 25px;
+}
