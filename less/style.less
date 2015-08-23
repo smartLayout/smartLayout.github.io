@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-	margin: 0 0 20px 0;
+	margin: 60px 0 20px 0;
 	font-size: 30px;
 	font-weight: 300;
 }
@@ -48,26 +48,26 @@ h2 {
 	padding: 0;
 	font-size: 0;
 	max-width: 1200px;
-}
 
-.slides li {
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-	margin: 10px;
-}
+	li {
+		width: 200px;
+		height: 200px;
+		display: inline-block;
+		margin: 10px;
 
-.slides .content {
-	width: 200px;
-	height: 200px;
-	x: 0;
-	y: 0;
-	fill: #fff;
-	.animated02;
-}
+		&::hover .content {
+			fill: #f8f8f8;
+		}
 
-.slides li:hover .content {
-	fill: #f8f8f8;
+		.content {
+			width: 200px;
+			height: 200px;
+			x: 0;
+			y: 0;
+			fill: #fff;
+			.animated02;
+		}
+	}
 }
 
 svg {
