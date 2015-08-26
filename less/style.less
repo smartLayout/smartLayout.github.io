@@ -28,6 +28,7 @@ body {
 	font-family: 'Open Sans';
 	text-align: center;
 	color: #222;
+	padding-bottom: 50px;
 }
 
 h1 {
@@ -528,6 +529,24 @@ svg {
 
 		rect:nth-child(2) {
 			height: 110px;
+		}
+	}
+}
+
+.guidlines-list {
+	display: inline-block;
+	text-align: left;
+
+	li {
+		// display: block;
+
+		a {
+			color: @blue;
+			line-height: 1.8;
+
+			&:hover {
+				color: @dark-blue;
+			}
 		}
 	}
 }
