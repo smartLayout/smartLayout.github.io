@@ -533,9 +533,13 @@ svg {
 	}
 }
 
+
+/* PART 2 */
+
 .guidlines-list {
 	display: inline-block;
 	text-align: left;
+	margin: 0;
 
 	li {
 		// display: block;
@@ -547,6 +551,64 @@ svg {
 			&:hover {
 				color: @dark-blue;
 			}
+		}
+	}
+}
+
+
+/* PART 3 */
+
+.preprocessors {
+	margin: 0 auto;
+	text-align: left;
+	width: 800px;
+
+	.less-logo {
+		height: 50px;
+		margin-bottom: 4px;
+	}
+
+	.sass-logo {
+		height: 75px;
+	}
+
+	li {
+		line-height: 1.8;
+	}
+
+	a {
+		color: @blue;
+
+		&:hover {
+			color: @dark-blue;
+		}
+	}
+
+	td {
+		background: #fff;
+		padding: 0;
+		vertical-align: top;
+		width: 397px;
+	}
+
+	th {
+		padding: 0;
+		text-align: center;
+
+		h3 {
+			background: @blue;
+			color: #fff;
+			margin: 10px 0 0;
+			font-size: 16px;
+		}
+	}
+
+	thead {
+
+		td {
+			text-align: center;
+			background: none;
+			vertical-align: bottom;
 		}
 	}
 }
